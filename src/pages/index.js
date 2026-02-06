@@ -1,5 +1,5 @@
-import Addpost from './Addpost'
-import Allposts from './Allposts'
+import AddPost from './AddPost'
+import AllPosts from './AllPosts'
 import EditPost from './EditPost'
 import Home from './Home'
 import Login from './Login'
@@ -7,4 +7,4 @@ import Post from './Post'
 import Signup  from './Signup'
 
 
-export {Addpost , Allposts , EditPost , Home , Login ,Post ,Signup}
+export {AddPost , AllPosts , EditPost , Home , Login ,Post ,Signup}

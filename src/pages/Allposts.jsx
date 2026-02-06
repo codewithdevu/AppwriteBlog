@@ -3,7 +3,7 @@ import { Container, Postcard } from "../components";
 import service from "../appwrite/confService";
 import { useSelector } from "react-redux";
 
-function Allposts() {
+function AllPosts() {
     const [posts, setPosts] = useState([]);
 
     // ✅ logged-in user
@@ -40,4 +40,4 @@ function Allposts() {
     );
 }
 
-export default Allposts;
+export default AllPosts;
